@@ -11,17 +11,13 @@
 Также возможна подстановка в поля значений,
 чтобы они сгенерировались уже заполненными.
 
-
-## Подключение
-
-Для работы нужно подключить файл `HTMLinputGenerator.php`. 
-
 Данная библиотека является надстройкой над [one234ru/html-tag-generator](https://github.com/1234ru/html-tag-generator).
 
-Выполните команду `composer require`, явно указав ветку `main` при помощи префикса `dev-`:
+
+## Установка
 
 ```shell
-composer require one234ru/html-input-generator:dev-main 
+composer require one234ru/html-input-generator 
 ```
 
 

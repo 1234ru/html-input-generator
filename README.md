@@ -7,15 +7,13 @@ This tool generates HTML source code of miscellaneous web form fields -
 `<input>`, `<select>` and `<textarea>` -
 based on simple configurations.
 
+The library is based on [one234ru/html-tag-generator](https://github.com/1234ru/html-tag-generator).
+
 
 ## Installation
 
-This library is based on [one234ru/html-tag-generator](https://github.com/1234ru/html-tag-generator).
-
-Run `composer require` explicitly specifying `main` branch after `dev-` prefix:
-
 ```shell
-composer require one234ru/html-input-generator:dev-main 
+composer require one234ru/html-input-generator 
 ```
 
 
