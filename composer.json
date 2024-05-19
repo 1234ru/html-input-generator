@@ -11,11 +11,5 @@
   "require": {
     "php": ">=7.1",
     "one234ru/html-tag-generator": "dev-main"
-  },
-  "repositories": [
-    {
-      "url": "https://github.com/1234ru/html-tag-generator",
-      "type": "github"
-    }
-  ]
+  }
 }

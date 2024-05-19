@@ -12,21 +12,6 @@ based on simple configurations.
 
 This library is based on [one234ru/html-tag-generator](https://github.com/1234ru/html-tag-generator).
 
-Add two new repositories to your `composer.json`:
-
-```json 
-"repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/1234ru/html-tag-generator"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/1234ru/html-input-generator"
-    }
-]
-```
-
 Run `composer require` explicitly specifying `main` branch after `dev-` prefix:
 
 ```shell

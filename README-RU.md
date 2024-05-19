@@ -18,21 +18,6 @@
 
 Данная библиотека является надстройкой над [one234ru/html-tag-generator](https://github.com/1234ru/html-tag-generator).
 
-Добавьте в `composer.json` два новых репозитория:
-
-```json 
-"repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/1234ru/html-tag-generator"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/1234ru/html-input-generator"
-    }
-]
-```
-
 Выполните команду `composer require`, явно указав ветку `main` при помощи префикса `dev-`:
 
 ```shell
