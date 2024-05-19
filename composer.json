@@ -1,0 +1,21 @@
+{
+  "name": "one234ru/html-input-generator",
+  "description": "https://github.com/1234ru/html-input-generator",
+  "minimum-stability": "stable",
+  "license": [ "GPL-3.0-or-later" ],
+  "autoload": {
+    "psr-4": {
+      "One234ru\\": "."
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "one234ru/html-tag-generator": "dev-main"
+  },
+  "repositories": [
+    {
+      "url": "https://github.com/1234ru/html-tag-generator",
+      "type": "github"
+    }
+  ]
+}
