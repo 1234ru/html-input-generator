@@ -1,6 +1,6 @@
 {
   "name": "one234ru/html-input-generator",
-  "description": "https://github.com/1234ru/html-input-generator",
+  "description": "Generating code of single HTML form inputs using PHP.",
   "minimum-stability": "stable",
   "license": [ "GPL-3.0-or-later" ],
   "autoload": {
