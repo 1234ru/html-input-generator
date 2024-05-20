@@ -149,26 +149,28 @@ Constructor's second agrument has no effect.
 
 ```php
 $config = [
-    'name' => 'secret',
-    'type' => 'hidden',
-    'value' => 'nobody should see this'
+    'type' => 'submit',
+    'name' => 'something',
+    'value' => 'text on the button'
 ];
 $value = 'whatever';
 ```
 
 ```html
-<input type="hidden" name="secret" value="nobody should see this">
+<input type="submit" name="something" value="text on the button">
 ```
 
 
 ### `'hidden'`
 
+`<input type="hidden">` may be generated with `value` attribute coming from HTTP query:
+
 ```php
 $config = [
-    'name' => 'something',
+    'name' => 'secret',
     'type' => 'hidden',
 ];
-$value = 'custom';
+$value = 'custom'; 
 ```
 ```html
 <input type="hidden" name="secret" value="custom">
@@ -178,7 +180,7 @@ If `value` is explicit, second agrument will be ignored:
 
 ```php
 $config = [
-    'name' => 'something',
+    'name' => 'secret',
     'type' => 'hidden',
     'value' => 'steady'
 ];

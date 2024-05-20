@@ -154,25 +154,27 @@ $value = '1';
 ```php
 $config = [
     'name' => 'something',
-    'type' => 'checkbox',
-    'value' => '10'
+    'type' => 'submit',
+    'value' => 'текст на кнопке'
 ];
 $value = 'что угодно';
 ```
 
 ```html
-<input type="hidden" name="secret" value="10">
+<input type="submit" name="something" value="текст на кнопке">
 ```
 
 
 ### `'hidden'`
 
+Поле `<input type="hidden">` можно сгенериовать с подстановкой значения из HTTP-запроса:
+
 ```php
 $config = [
-    'name' => 'something',
+    'name' => 'secret',
     'type' => 'hidden',
 ];
-$value = 'custom';
+$value = 'custom'; 
 ```
 ```html
 <input type="hidden" name="secret" value="custom">
